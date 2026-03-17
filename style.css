@@ -1,0 +1,288 @@
+/* INITIALISATION ET BASES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #F9F6F2;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333333;
+}
+
+strong {
+    color: #D4713A;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+
+    background-color: #2D5A3D;
+    color: #F9F6F2;
+}
+
+header span {
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+header a {
+    text-decoration: none;
+    color: #F9F6F2;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li:hover {
+    border-bottom: #F9F6F2 1px solid;
+    transform: scale(1.1);
+}
+
+/* BANIERE */
+
+.baniere {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px;
+}
+
+/* SECTION PRESENTATION */
+
+#presentation {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentation .hero-presentation {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+#presentation h2 {
+    color: #2D5A3D;
+    font-size: 30px;
+}
+
+.text-presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* SECTION SERVICES */
+
+#services {
+    background-color: #2D5A3D;
+    color: #F9F6F2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+
+}
+
+#services h2 {
+    font-size: 30px;
+}
+
+#services .grid-services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 70px;
+    
+}
+
+#services .grid-services .card {
+    background-color: #F9F6F2;
+    border: #D4713A solid 2px;
+    border-radius: 25px;
+    height: fit-content;
+    padding: 20px 30px;
+}
+
+#services .grid-services .card h3 {
+    color: #D4713A;
+}
+
+
+#services .grid-services img {
+    align-self: flex-end;
+    width: 50%;
+    justify-self: center;
+}
+
+#services span {
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+#services span a {
+    color: #D4713A;
+}
+
+
+/* SECTION ATELIER */
+
+#atelier {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#atelier h2 {
+    color: #2D5A3D;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.atelier-apprentissage {
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center
+
+}
+
+.hero-text a {
+    color: #D4713A;
+}
+
+
+/* SECTION HORAIRES */
+
+#horaires {
+    background-color: #2D5A3D;
+    color: #F9F6F2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+#horaires h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #F9F6F2;
+    color: #D4713A;
+}
+
+th, td {
+    border: #D4713A 2px solid;
+    padding: 20px;
+    text-align: left;
+}
+
+
+/* SECTION CONTACT */
+
+#contact {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center
+}
+
+.infos-contact {
+    width: 50%;
+}
+
+.infos-contact h2 {
+    color: #2D5A3D;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.infos-contact a {
+    color: #D4713A;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #2D5A3D;
+    padding: 40px;
+    border: #D4713A solid 1px;
+    border-radius: 25px;
+    gap: 20px;
+}
+
+form label {
+    color: #F9F6F2;
+}
+
+form .submit {
+    padding: 5px;
+    background-color: #F9F6F2;
+    color: #2D5A3D; 
+    border-radius: 15px;
+}
+
+form .submit:hover {
+    background-color: #D4713A;
+    color: #F9F6F2;
+    transform: scale(1.1);
+}
+
+/* FOOTER */ 
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2D5A3D;
+    color: #F9F6F2;
+    padding: 40px;
+}
+
+
+
